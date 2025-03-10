@@ -20,11 +20,11 @@
     <title>WEBSTUDIO</title>
   </head>
   <body>
-    <!--Header-->
+    <!-- #region Header -->
     <header class="header">
       <div class="container header-content">
         <nav class="header-nav">
-          <a class="header-logo" href="./index.html"
+          <a class="logo header-logo" href="./index.html"
             ><span class="header-logo-span">Web</span>Studio</a
           >
           <ul class="header-menu-list">
@@ -53,18 +53,25 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <!--Hero-->
-      <section class="hero">
+      <!-- #endregion Header -->
+      <!-- #region Hero -->
+      <section hidden class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
-      <!--About company-->
-      <section class="about-comp">
+      <!-- #endregion Hero -->
+      <!-- #region About company -->
+      <section hidden class="about-comp">
         <div class="container">
           <h2 class="visually-hidden">Section1</h2>
           <ul class="about-comp-list">
@@ -119,8 +126,9 @@
           </ul>
         </div>
       </section>
-      <!--Our Team-->
-      <section class="our-team">
+      <!-- #endregion About company -->
+      <!-- #region Our Team -->
+      <section hidden class="our-team">
         <div class="container">
           <h2 class="our-team-title">Our Team</h2>
           <ul class="our-team-list">
@@ -299,8 +307,9 @@
           </ul>
         </div>
       </section>
-      <!--Our prtfol-->
-      <section class="our-prtfol">
+      <!-- #endregion Our Team -->
+      <!-- #region Our prtfol -->
+      <section hidden class="our-prtfol">
         <div class="container">
           <h2 class="our-prtfol-title">Our Portfolio</h2>
           <ul class="our-prtfol-list">
@@ -398,8 +407,9 @@
         </div>
       </section>
     </main>
-    <!--Footer-->
-    <footer class="footer">
+    <!-- #endregion Our prtfol -->
+    <!-- #region Footer -->
+    <footer hidden class="footer">
       <div class="container">
         <div class="footer-container-logo">
           <a class="footer-logo" href="./index.html"
@@ -465,8 +475,9 @@
         </div>
       </div>
     </footer>
-
-    <div class="backdrop">
+    <!-- #endregion Footer -->
+    <!-- #region Modal -->
+    <div hidden class="backdrop">
       <div class="modal">
         <button type="button" class="button-close">
           <svg class="icon-close" width="8" height="8">
@@ -547,5 +558,6 @@
         </form>
       </div>
     </div>
+    <!-- #endregion Modal -->
   </body>
 </html>
