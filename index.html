@@ -400,7 +400,31 @@
           <ul class="our-prtfol-list">
             <li class="our-prtfol-item">
               <div class="our-prtfol-block-img">
-                <img src="./images/banking-app-orig.jpg" alt="banking-app" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/banking-app-lap-min.jpg    1x,
+                      ./images/banking-app-lap@2x-min.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-app-tab-min.jpg    1x,
+                      ./images/banking-app-tab@2x-min.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-app-mob-min.jpg    1x,
+                      ./images/banking-app-mob@2x-min.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img src="./images/banking-app-orig.jpg" alt="banking-app" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -414,10 +438,34 @@
             </li>
             <li class="our-prtfol-item">
               <div class="our-prtfol-block-img">
-                <img
-                  src="./images/cashless-payment-orig.jpg"
-                  alt="cashless-payment"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/cashless-payment-lap-min.jpg    1x,
+                      ./images/cashless-payment-lap@2x-min.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless-payment-tab-min.jpg    1x,
+                      ./images/cashless-payment-tab@2x-min.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless-payment-mob-min.jpg    1x,
+                      ./images/cashless-payment-mob@2x-min.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/cashless-payment-orig.jpg"
+                    alt="cashless-payment"
+                  />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
