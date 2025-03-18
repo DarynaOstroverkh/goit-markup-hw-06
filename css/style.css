@@ -265,6 +265,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0 auto;
 }
 
 .mobile-menu-adress-list {
@@ -754,7 +755,6 @@ img {
 .footer {
   background: #2e2f42;
   padding-top: 96px;
-  padding-bottom: 96px;
 }
 
 @media screen and (min-width: 768px) {
@@ -928,7 +928,6 @@ img {
 @media screen and (min-width: 768px) {
   .footer-label-input {
     width: 264px;
-    margin-right: 24px;
   }
 }
 @media screen and (min-width: 1158px) {
